@@ -1,0 +1,113 @@
+#base1 {
+  background-color:yellow;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+#transform-origin1 {
+  background-color:red;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.rotate1 {
+  transform: rotate(45deg);
+}
+
+#base2 {
+  background-color:yellow;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 400px;
+}
+
+#transform-origin2 {
+  background-color:red;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 400px;
+}
+
+.rotate2 {
+  transform: rotate(45deg);
+  transform-origin: 0%;
+}
+
+#base3 {
+  background-color:yellow;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 700px;
+}
+
+#transform-origin3 {
+  background-color:red;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 700px;
+}
+
+.rotate3 {
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+}
+
+#base4 {
+  background-color:yellow;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 100px;
+}
+
+#transform-origin4 {
+  background-color:red;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 100px;
+}
+
+.rotate4 {
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+#base5 {
+  background-color:yellow;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 700px;
+}
+
+#transform-origin5 {
+  background-color:red;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 700px;
+}
+
+.rotate5 {
+  transform: rotate(45deg);
+  transform-origin: 0% -50%;
+}
